@@ -1,7 +1,7 @@
 package sudoku;
 
 public class Sudoku_main{
-	
+	// we define a simple grid to solve. Grid is stored in a 2D Array
 	// we define a simple grid to solve. Grid is stored in a 2D Array
 	public static int[][] GRID_TO_SOLVE = {
 			{9,0,0,1,0,0,0,0,5},
