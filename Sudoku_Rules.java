@@ -21,7 +21,7 @@ public class Sudoku_Rules {
 		
 		return false;
 	}
-	
+	// we check if a possible number is in its 3x3 box
 	// we check if a possible number is in its 3x3 box
 	private boolean isInBox(int row, int col, int number) {
 		int r = row - row % 3;
@@ -34,6 +34,7 @@ public class Sudoku_Rules {
 		
 		return false;
 	}
+	//Here’s one silver lining to the pandemic: with gyms, museums, and stores closed, many of us were forced to spend more time outside. I was able to ditch my car and more safely pedal the 3.5 miles on pedestrian-friendly streets to work at Alta Bates Summit Medical Center in Oakland, where I work practicing hospital medicine. 
 	
 	// combined method to check if a number possible to a row,col position is ok
 	private boolean isOk(int row, int col, int number) {
