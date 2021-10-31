@@ -51,6 +51,8 @@ public static boolean isSafe(int[][] board,
         // if there is no clash, it's safe 
     return true; 
 } 
+  // corresponding square has 
+    // unique number (box-clash) 
   
 public static boolean solveSudoku(int[][] board, int n)  
 { 
